@@ -1,0 +1,29 @@
+ /* Aplicado em Todos os Elementos da Página */
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: aliceblue;
+    font-family: sans-serif;
+    font-size: 1em;
+    color: blue;
+    margin-left: 36%;
+    margin-top: 2%;
+    justify-content: center;
+}
+
+input, select,button {
+    background-color: pink;
+    
+
+
+
+
+}
+
+
+
+
+

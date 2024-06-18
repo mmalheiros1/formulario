@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen">
+</head>
+<body>
+    <!-- Título -->
+    <div>
+        <h1 id="titulo">Cadastro</h1>
+
+    </div>
+    <div>
+        <h1 class="Subtitulo">Cadastro2</h1>
+
+    </div>
+    <div>
+        <h1 class="subtitulo">Cadastro3</h1>
+
+    </div>
+
+    <form>
+        <fieldset>
+            <div>
+                <label>
+                    <strong>Nome</strong>
+                </label>
+                <input type="text" name="nome" id="nome">
+
+            </div>
+            <div>
+                <label>
+                    <strong>Sobrenome</strong>
+                </label>
+                <input type="text" name="sobrenome" id="sobrenome">
+
+            </div>
+        </fieldset>
+ <!-- Email e Senha -->
+        <fieldset>
+            <div>
+                <label>
+                    <strong>Email</strong>
+                </label>
+                <input type="email" name="email" id="email">
+
+            </div>
+            <div>
+                <label>
+                    <strong>Senha</strong>
+                </label>
+                <input type="password" name="senha" id="senha">
+
+            </div>
+        </fieldset>
+<!-- Data de Nascimento e Cursos -->
+        <div>
+            <div>
+                <label>
+                    <strong>Data de Nascimento</strong>                
+                </label>
+                <input type="date" name="nasc" id="nasc">
+            </div>
+            <label>
+                <strong>Curso:</strong>
+            </label>
+            <input type="radio" name="curso" value="front-end"> front-end
+            <label>
+                <input type="radio" name="curso" value="back-end">back-end
+            </label>
+            <label>
+                <input type="radio" name="curso" value="full-stack">full-stack
+            </label>
+
+        </div>
+<!-- Turnos -->
+        <div>
+            <label>
+                <strong>Turno</strong>
+            </label>
+            <select>
+                <option selected disabled value="">Selecione</option>
+                <option>Manhã</option>
+                <option>Tarde</option>
+                <option>Noite</option>
+            </select>
+
+        </div>
+
+<!-- Botão de Cadastro -->
+        <button type="submit" onsubmit="">Cadastrar</button>
+
+    </form>
+</body>
+</html>
