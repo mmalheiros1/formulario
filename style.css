@@ -4,26 +4,84 @@
     padding: 0%;
 }
 
+
+/* Estilo para id=titulo */
+
+#titulo {
+    font-family: sans-serif;
+    justify-content: center;
+    color: black;
+}
+
+
+fieldset {
+    border: 0;
+}
+
+
 body {
-    background-color: aliceblue;
+    background-color: white;
     font-family: sans-serif;
     font-size: 1em;
-    color: blue;
+    color:black;
     margin-left: 36%;
     margin-top: 2%;
     justify-content: center;
 }
 
 input, select,button {
-    background-color: pink;
-    
+    background-color: white;
+    font-family: sans-serif;
+    font-size: 1em;
+    color: black;
+    border-radius: 10px;
+}
 
+.campo {
+    margin-bottom: 10px;
+}
 
+.campo label {
+    margin-bottom: 0.2em;
+    color: black;
+    display: block;
+}
 
+.grupo::before, .grupo::after {
+    display: table;
 
 }
 
+fieldset.grupo .campo {
+    float: left;
+    margin-right: 1em;
 
+}
 
+.campo input:focus, .campo select:focus {
+    background: rgb(221, 216, 216);
+}
 
+.botao {
+    font-size: 1.2em;
+    background: black;
+    margin-bottom: 1em;
+    color: white;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px black;
+    text-shadow: 2px 2px 2px black;
+    cursor: pointer;
+}
 
+.botao:hover {
+    background: blue;
+    text-shadow: none;
+
+}
+
+.campo input [type="text"], .campo input [type="password"], .campo input [type="email"], .campo select {
+    padding: 0.5em;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px;
+    display: block
+}
